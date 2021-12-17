@@ -1,0 +1,19 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /Marwar_Institute/ 
+
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteCond %{SCRIPT_FILENAME} !-d
+
+RewriteRule    ^course_detail/(.*)$      course_detail.php?id=$1 [QSA,L]
+RewriteRule    ^index/(.*)$      index.php?id=$1 [QSA,L] 
+RewriteRule    ^about_detail/(.*)$      about_detail.php?id=$1 [QSA,L] 
+
+RewriteRule    ^trade_detail/(.*)$     trade_detail.php?id=$1 [QSA,L]
+RewriteRule    ^Monitoring/(.*)$            Monitoring.php?id=$1 [QSA,L]
+RewriteRule    ^Faculty_detail/(.*)$      Faculty_detail.php?id=$1 [QSA,L]
+RewriteRule    ^facilities/(.*)$      facilities.php?id=$1 [QSA,L]
+RewriteRule    ^news/(.*)$      news.php?id=$1 [QSA,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]

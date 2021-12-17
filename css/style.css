@@ -1,0 +1,167 @@
+.navbar-form {
+	background: #c6ac2ce6;
+}
+.navbar-inverse{
+	background: #2e5f85;  
+}
+a.scroll-top{
+	color :#2e5f85;
+	background-color: #c6ac2ce6;
+}
+.header-top ul.follow-us li a{
+	color: #faf3f5;
+}
+.header-top ul.top-nav li a{
+	color: #faf3f5;
+}
+.header-top {
+	background: #2e5f85;
+}
+.navbar-inverse .navbar-nav > li > a i{
+	color:#2e5f85;
+}
+.navbar-nav > li{
+	border-right: 1px #2e5f85 solid;
+}
+.navbar .dropdown-menu{
+	border-top: 4px #c6ac2ce6 solid;
+}
+.navbar .dropdown-menu > li > a:focus, .navbar .dropdown-menu > li > a:hover{
+	background: #c6ac2ce6;
+}
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{
+	margin-right: -10px;
+}
+.navbar-form{
+	width: 20%;
+}
+.banner-outer .content p{
+	color: #f8f9fa;
+}
+.banner-outer .content h1{
+	color: #f8f9fa;
+}
+.banner-outer .content h1 span {
+	font-size: 20px;
+
+
+}
+.btn{
+	background: #c6ac2ce6;
+}
+.text-justify{
+	text-align: justify;
+	color: #000000;
+}
+.error{
+	color:red;
+}
+.table{
+	border: 1px solid;
+	width: 100%;
+}
+.table ,th,td{
+	border: 1px solid;
+    color:black;
+    text-align: center;
+}
+
+.table-th{
+	color:#ffffff;
+	background-color:#2e5f85;
+	text-align: center;
+	text-transform: uppercase;
+}
+.table>thead>tr>th{
+	vertical-align: top;
+	text-align: 10px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+.footer-row{
+	display: flex;
+    justify-content: flex-end;
+}
+@media (min-width: 768px){
+.col-sm-4 {
+	width: 25%;
+	}
+
+}
+
+b, strong{
+	color:red;
+}
+.library{
+	color:black;
+}
+.click-zoom img {
+  margin: 100px;
+  transition: transform 0.25s ease;
+  cursor: zoom-in
+}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{
+	display: block;
+    max-width: 100%;
+  
+}
+.campus-tour ul.gallery li {
+    width: 20%;
+    float: left;
+    display: block;
+    background: white;
+    position: relative;
+    height: 300px;
+    padding: 10px;
+}
+figure {
+    margin: 0;
+    height: 250px;
+}
+.ab-p{
+text-align: center;
+color: #000
+}
+.new-h{
+	text-align: center;
+}
+.text{
+	padding: 10px;
+	text-align: justify;
+	color:#2e5f85;
+}
+.col-sm-6{
+display: flex;
+align-items: center;
+justify-content: space-around;
+
+}
+
+
+@media(max-width:767px){
+.footer-row {
+   display:flex;
+   flex-direction: column-reverse !important;
+}
+.h2{
+	font-size: 18px;
+}
+
+.gallery clearfix isotopeContainer{
+	overflow: scroll;
+}
+.campus-tour ul.gallery li{
+	width: 100%;
+}
+}
